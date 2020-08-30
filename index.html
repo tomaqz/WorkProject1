@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Status Checker</title>
+    <meta name="viewport" content="width=device-width">
+<!--
+    Member Status checker 
+    Auth: IT2 Quiroz
+    29 AUG 2020
+-->
+<link rel="stylesheet" href="styles.css">
+</head>
+<header>Team Status Checker</header>
+<div class="contain">
+<body>
+
+<ul class="options" onchange="statUpd()">
+    <!--
+        A list of names with button / status indicator to the right
+    
+   <li> Petty Officer Soandso <input type="button" id="clkr" value = "present" alt="member status" />  </li>
+   <li> Seaman Schmuckatelly <input type="button" id="clkr" value = "present" alt="member status" />  </li>
+   <li> Petty Officer Anyone  <input type="button" id="clkr" value = "present" alt="member status" />  </li>
+   <li> Chief Keef <input type="button" id = "clkr" value = "present" alt="member status" />  </li>
+    -->
+</br>
+<li id="clkr1"> Seaman Schmuckatelly <button type="button" onclick="document.getElementById('clkr1').style.color = 'green'">Present</button> </li>
+<li id="clkr2"> Seaman Sleven <button type="button" onclick="document.getElementById('clkr2').style.color = 'green'"> Present </button></li>
+<li id="clkr3"> Petty Officer Anyone  <button type="button" onclick="document.getElementById('clkr3').style.color = 'green'" /> Present </button> </li>
+<!--
+   <li> Chief Keef <input type="button" id = "clkr" value = "present" alt="member status" />  </li>
+-->
+</ul>
+
+    <script>
+        /**
+        var btns = document.querySelector("button");
+
+        document.getElementById("clkr").addEventListener("change", statUpd) = x; 
+
+        function statUpd(x)
+        {
+              // var x = document.getElementById("clkr");
+               // document.getElementById("clkr").
+               x.style.color = "green"; 
+        }
+        
+        ----------
+       document.getElementById("clkr").onchange = function() { statUpd() };
+       var clicked = false;
+
+       function statUpd()
+       {
+           var x = document.getElementById("clkr");
+           x.value = x.value.changeColor("green");
+       }
+       -----------
+       document.getElementById("clkr").style.color = "green";
+       */
+      
+    </script>
+</body>
+</div>
+
+</html>
+
